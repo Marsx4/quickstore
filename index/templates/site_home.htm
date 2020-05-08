@@ -1,0 +1,122 @@
+{% extends 'base.htm' %}
+{% load static %}
+
+{% block main%}
+
+<div class="container">
+    <div class="center">
+        <h1><span class="pink-text">Quick</span> <i class="fa fa-shopping-bag medium"></i> <span class="blue-text">Store</span></i></h1>
+        <div class="center-align">  </div>
+        <br><br>
+        <a href="#!" class="btn blue darken-3 bottomspace"><strong>create a shop</strong></a>
+        <a href="#!" class="btn pink darken-3 bottomspace"><strong>start shopping</strong></a>
+    </div>
+    <br>
+</div>
+
+<!-- carousel -->
+<div class="carousel carousel-slider z-depth-2 main-carousel">
+    <a href="#!" class="carousel-item">
+        <img src="{% static 'images/eadbox.jpg' %}" class="responsive-img">
+    </a>
+    <a href="#!" class="carousel-item">
+        <img src="{% static 'images/closeheat.png' %}" class="responsive-img">
+    </a>
+    <a href="#!" class="carousel-item">
+        <img src="{% static 'images/kioskbrowser.png' %}" class="responsive-img">
+    </a>
+</div>
+<br><br>
+
+<div class="container">
+    <!-- rent a shop row -->
+    <div class="row center">
+        <div class="col s12 m4">
+            <button class="btn-floating pink btn-large"><i class="material-icons">store</i></button>
+            <br><br>
+            <p><f>RENT SPACE TO SELL YOUR PRODUCTS ONLINE</f></p>
+        </div>
+       
+   
+        <div class="col s12 m4">
+            <button class="btn-floating blue btn-large"><i class="fa fa-shopping-bag"></i></button>
+            <br><br>
+            <p><f>BUY CLOTHES FOR YOURSELF OR LOVED ONES</f></p>
+        </div>
+       
+   
+        <div class="col s12 m4">
+            <button class="btn-floating pink darken-3 btn-large"><i class="fa fa-shopping-cart"></i></button>
+            <br><br>
+            <p><f>BUY GROCERIES FOR YOURSELF OR LOVED ONES</f></p>
+        </div>
+    </div>
+
+    
+
+    <h3 class="center-align">Available Stores</h3>
+    <br><br>
+    <!-- available stores -->
+    <div class="row center">
+        <div class="col s12 m6 l4">
+           <div class="card green no-mb">
+               <div class="card-content">
+                   <i class="material-icons white-text">store</i>
+                   <span class="card-title white-text">5 PRODUCTS/SHOP</span>
+               </div>
+           </div>
+           <ul class="collection collection-with-header inner-ul hoverable">
+               <li class="collection-header"><h4>$10.00/month</h4></li>
+               <li class="collection-item">Sell up to a maximum of 5 products</li>
+           </ul>
+           <a href="#!" class="btn btn-small">buy now</a>
+           <br><br>
+        </div>
+
+        <div class="col s12 m6 l4">
+            <div class="card blue-grey no-mb">
+                <div class="card-content">
+                    <i class="material-icons white-text">store</i>
+                    <span class="card-title white-text">10 PRODUCTS/SHOP</span>
+                </div>
+            </div>
+            <ul class="collection collection-with-header inner-ul hoverable">
+                <li class="collection-header"><h4>$20.00/month</h4></li>
+                <li class="collection-item">Sell up to a maximum of 10 products</li>
+            </ul>
+            <a href="#!" class="btn btn-small">buy now</a>
+            <br><br>
+         </div>
+
+         <div class="col s12 m6 l4">
+            <div class="card pink no-mb">
+                <div class="card-content">
+                    <i class="material-icons white-text">store</i>
+                    <span class="card-title white-text">20 PRODUCTS/SHOP</span>
+                </div>
+            </div>
+            <ul class="collection collection-with-header inner-ul hoverable">
+                <li class="collection-header"><h4>$30.00/month</h4></li>
+                <li class="collection-item">Sell up to a maximum of 20 products</li>
+            </ul>
+            <a href="#!" class="btn btn-small">buy now</a>
+            <br><br>
+         </div>
+    </div>
+
+    <br>
+  
+    
+    <!-- get in touch with us contact form -->
+ 
+    <br>
+    <!-- contact form  -->
+
+
+</div>
+
+{% endblock %}
+
+{% block footer%}
+    {% include 'main_footer.htm' %}
+{% endblock%}

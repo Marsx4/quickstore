@@ -1,0 +1,40 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+*::-webkit-scrollbar {
+width: 14px;               /* width of the entire scrollbar */
+}
+*::-webkit-scrollbar-track {
+background: #f3f3f3;        /* color of the tracking area */
+}
+*::-webkit-scrollbar-thumb {
+background-color: grey;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 3px solid #f3f3f3;  /* creates padding around scroll thumb */
+}
+
+.brand-logo{ text-decoration: none;}
+.brand-logo-icon{ position: relative; top:4px;left: 4px;}
+h1,h2,h3,h4,h5,h6{ font-weight: 300;}
+.bottomspace{
+    margin-bottom: 20px;
+}
+hr{margin-bottom: 20px;}
+.no-mb{
+    margin-bottom: 0px;margin-top: 0px;
+}
+.inner-ul{
+    margin-top: 0;
+}
+.ml-5{
+    margin-left: 20px;
+}
